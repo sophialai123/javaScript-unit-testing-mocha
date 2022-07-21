@@ -2,11 +2,14 @@ const assert = require('assert');
 const fs = require('fs');
 let path, str;
 
+
 describe('appendFileSync', () => {
-  // Write hooks above the tests
+  //Run before the first test
   before(() => {
     path = './message.txt'
   })
+
+  //run after each test in the block 
   afterEach(() => {
     // Teardown: restore file
     fs.unlinkSync(path);
@@ -45,4 +48,17 @@ describe('appendFileSync', () => {
 
   });
 });
+
+
+
+describe('How to use hooks', () => {
+  before(() => {
+    console.log('before run before the first test')
+  })
+
+  after(() => {
+    console.log('after run after the first test')
+  })
+
+})
 

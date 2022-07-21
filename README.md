@@ -190,3 +190,18 @@ In this example, while each it() block could have set the testValue to 5, using 
 ---
 
 ## Write Expressive Tests
+
+The functions in the [assert library](https://nodejs.org/api/assert.html) compare values and throw errors as needed using one function call. The small, human-readable format of the functions will help you make a more expressive test suite.
+
+
+
+---
+# [Chai Library] (https://www.chaijs.com/)
+
+Install chai
+
+```
+$ npm install chai
+```
+
+Chai has several interfaces that allow the developer to choose the most comfortable. The chain-capable BDD styles provide an expressive language & readable style, while the TDD assert style provides a more classical feel.
