@@ -3,7 +3,7 @@
 ---
 
 ## Install package json 
-`$ npm init --yes`
+`$  npm init --yes`
 
 
 ## Install Mocha
