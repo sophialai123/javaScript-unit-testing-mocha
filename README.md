@@ -1,6 +1,11 @@
 # [mocha testing](https://mochajs.org/)
 
 ---
+
+## Install package json 
+`$ npm init -yes`
+
+
 ## Install Mocha
 ```
 $ npm install mocha
